@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\auser\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add electron-builder --dev
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts\;C:\Python310\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-18.0.1.1\bin;C:\Users\auser\work\ex\nt\besu\besu-22.4.4\bin;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Users\auser\AppData\Local\Microsoft\WindowsApps;;C:\Users\auser\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\auser\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EBUSY: resource busy or locked, unlink 'C:\Users\auser\work\pqube\electron\node_modules\electron\dist\icudtl.dat'
+
+npm manifest: 
+  {
+    "name": "electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^20.0.2",
+      "ntru-legacy": "^1.0.1",
+      "split": "^1.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
