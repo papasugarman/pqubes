@@ -6,5 +6,5 @@ At this time, the PQubes key exchange utilizes the NTRU Quantum-secure encryptio
 
 ## PQubes Demos
 The demos folder contains two demos made in javascript that implement the PQubes protocol. 
-### a) Simple client-server communication
-### b) FyrChat - a GUI based disposable chat application
+### a) TCP client-server communication
+### b) FyrChat - a GUI-based disposable chat application
